@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invoice Generator</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+
+  <div class="container">
+    <h1>Invoice Generator</h1>
+
+    <!-- Form to fill the invoice -->
+    <form id="invoiceForm">
+      <label for="date">Date:</label>
+      <input type="text" id="date" placeholder="DD/MM/YY"><br>
+
+      <label for="username">Username:</label>
+      <input type="text" id="username" placeholder="MG MG"><br>
+
+      <label for="usermail">Usermail:</label>
+      <input type="text" id="usermail" placeholder="MG@MG.COM"><br>
+
+      <label for="endDate">End Date:</label>
+      <input type="text" id="endDate" placeholder="DD/MM/YY"><br>
+
+      <label for="invoiceId">Invoice ID:</label>
+      <input type="text" id="invoiceId" placeholder="AEIOU123"><br>
+
+      <label for="paymentMethod">Payment Method:</label>
+      <input type="text" id="paymentMethod" placeholder="Cash/Card"><br>
+
+      <label for="paidAmount">Paid Amount:</label>
+      <input type="text" id="paidAmount" placeholder="00000 MMK"><br>
+
+      <label for="issuer">Issuer:</label>
+      <input type="text" id="issuer" placeholder="Issuer Name"><br>
+
+      <label for="note">Note:</label>
+      <input type="text" id="note" placeholder="Any Notes"><br>
+
+      <button type="submit">Generate Invoice</button>
+    </form>
+
+    <div id="output"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
